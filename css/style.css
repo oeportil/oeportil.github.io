@@ -1,0 +1,51 @@
+.font{
+    font-size: 17px;
+    color: white;
+    text-decoration-line: none;
+}
+.bg{
+    background-color: #aaaaaa;
+}
+
+.custom-toggler {
+    background-color: white; /* Cambia el color de fondo del botón a blanco */
+    border-color: white; /* Cambia el color del borde del botón a blanco */
+    color: black; /* Cambia el color del icono del botón a negro */
+  }
+  #boton_play_pause{
+    color: rgb(0, 0, 0);
+    margin: 50px;
+    align-items: center;
+    padding: 40px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    font-size: 40px;
+  }
+
+  #boton_play_pause:hover{
+    background-color: rgb(202, 202, 202, 0.3);
+    border: none;   
+  }
+  #boton_play_pause:active{
+    background-color: rgb(202, 202, 202, 0);
+    border: none;
+  }
+
+  .card{
+    box-shadow: 5px 5px 15px gray;
+
+  }
+.reprodutor{
+    display: flex;
+}
+  p{
+    text-align: justify;
+  }
+
+.centrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
